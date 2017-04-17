@@ -1,18 +1,18 @@
 */build/
-*/.classpath
-*/.project
-*/.settings/
-*/.tern-project
+*.classpath
+*.project
+*.settings/
+*.tern-project
 
-*/.metadata
-*/bin/
+*.metadata
+*bin/
 */tmp/
 *.tmp
 *.bak
 *.swp
 *~.nib
-*/local.properties
-*/.loadpath
+*local.properties
+*.loadpath
 .recommenders
 
 # External tool builders
