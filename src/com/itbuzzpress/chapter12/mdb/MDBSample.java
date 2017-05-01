@@ -7,6 +7,7 @@ import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.TextMessage;
 
+
 @MessageDriven(activationConfig = {
 		@ActivationConfigProperty(propertyName = "destinationLookup", propertyValue = "java:/jms/queue/exampleQueue"),
 		@ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Queue"), })
